@@ -246,6 +246,11 @@ header.masthead {
 #portfolio * {
   z-index: 2; }
 
+#resume-img {
+  height: 200px;
+  width: 400px;
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
