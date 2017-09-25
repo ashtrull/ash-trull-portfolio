@@ -24,8 +24,13 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #FFFFFF;
+  color: #8D9D0C;
+
   outline: none; }
+
+ul {
+  text-align: left;
+}
 
 h1,
 h2,
