@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Abel|Dosis|Yanone+Kaffeesatz" rel="stylesheet">
-
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/freelancer.css" rel="stylesheet">
@@ -43,9 +43,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Skills and Experience</a>
-            </li> -->
+            </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -73,7 +73,7 @@
       <h2 class="text-center">Portfolio</h2>
       <hr class="star-primary">
       <div class="row">
-        <div class="col-sm-4 portfolio-item">
+        <div class="col-sm-6 portfolio-item">
           <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -83,7 +83,7 @@
             <img class="img-fluid portfolio-thumb" id="kit-cat-go-img" src="https://i.imgur.com/Z7LgpOO.png" alt="">
           </a>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div class="col-sm-6 portfolio-item">
           <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -93,7 +93,9 @@
             <img class="img-fluid portfolio-thumb" id="seed-sower-img" src="https://i.imgur.com/pUA4J7g.png" alt="">
           </a>
         </div>
-        <div class="col-sm-4 portfolio-item">
+      </div>
+      <div class="row">
+        <div class="col-sm-6 portfolio-item">
           <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -101,6 +103,16 @@
               </div>
             </div>
             <img class="img-fluid portfolio-thumb" id="peach-img" src="https://i.imgur.com/qcoMz0h.png" alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 portfolio-item">
+          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid portfolio-thumb" id="amor-img" src="https://i.imgur.com/xcKlKVJ.png" alt="">
           </a>
         </div>
       </div>
@@ -114,14 +126,16 @@
       <hr class="star-light">
       <div class="row">
         <div class="col-lg-4 ml-auto">
+          <i class="fa fa-bolt" aria-hidden="true"></i>
           <p>I am a community organizer, full stack web developer, and facilitator committed to the pursuit of justice in all its many forms: social, racial, economic, and environmental. I use my skills in systems thinking from community organizing to develop
             web applications, build political campaigns, and manage projects to solve the greatest challenges of our time. It is my passion as a facilitator to coordinate groups of people in finding shared purpose and goals, then creating a road map for
             getting there.
           </p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p>My core values are community power, democracy, equity, autonomy, and liberation. My latest work has been adding web development to my toolbox for social change, working as a co-op consultant to help experienced and emerging worker cooperatives,
-            and organizing white people to join a multiracial movement for racial justice through SURJ.</p>
+          <span class="glyphicon glyphicon-flash" aria-hidden="true"> </span>
+          <p>My core values are community power, democracy, equity, autonomy, and liberation. My latest work has been adding web development to my toolbox for social change, and I am excited to bring my skills as a developer to social change work. When I'm not coding, I'm also working as a co-op consultant to help experienced and emerging worker cooperatives,
+            and organizing more white people to join a multiracial movement for racial justice through Showing Up for Racial Justice RI, and cultivating my backyard farm.</p>
           <!-- <div class="col-lg-8 mx-auto text-center">
             <a href="#" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
@@ -131,7 +145,48 @@
         </div>
       </div>
   </section>
-
+  <!-- My Skills Section -->
+  <section class="success" id="skills">
+    <div class="container">
+      <h2 class="text-center">My Skills</h2>
+      <hr class="star-light">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>React</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Sass</li>
+            <li>JQuery</li>
+            <li>Git Workflow</li>
+            <li>UX Deisgn</li>
+            <li>Postgresql</li>
+            <li>MongoDB</li>
+            <li>Express.js</li>
+            <li>Handlebars</li>
+            <li>React.js</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 mr-auto">
+        <ul>
+          <li>Staff Management</li>
+          <li>Customer Service and Sales</li>
+          <li>Community Development</li>
+          <li>Conversational Spanish and Portuguese</li>
+          <li>Strategic Planning</li>
+          <li>Experience with remote workplaces and virtual meetings</li>
+          <li>Facilitation</li>
+          <li>Social Media and Communications</li>
+          <li>Marketing Strategy</li>
+          <li>Conference and Event Planning</li>
+          <li>Worker Cooperative Development</li>
+          <li>Social Entrepreneurship</li>
+        </ul>
+      </div>
+  </section>
   <!-- Contact Section -->
   <section id="contact">
     <div class="container">
@@ -373,27 +428,23 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2>Project Title</h2>
+                <h2>AMORidarity</h2>
                 <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/game.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                <img class="img-fluid img-centered" src="https://i.imgur.com/49T3WsB.png" alt="Preview of AMORidarity">
+                <p>A resource-sharing app for a local organization to connect community members with requests and offers in the movement for justice</p>
                 <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
+                  <strong>
+                  <h6>
+                  <li>Client: N/A</li>
+                  <li>Date: October 2017</li>
+                  <li>Technologies Used: HTML, CSS, JavaScript, JQuery, Ruby on Rails, Bootstrap, Handlebars
                   </li>
-                  <li>Date:
-                    <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
+                  <li>GitHub: <a href="https://ashtrull.github.io/amor-capstone-client/" target="_blank">AMORidarity</a>
                   </li>
-                  <li>Service:
-                    <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
+                  <li>Deployed page: <a href="https://ashtrull.github.io/amor-capstone-client/" target="_blank">AMORidarity</a>
                   </li>
+                </h6>
+              </strong>
                 </ul>
                 <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
