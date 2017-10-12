@@ -19,18 +19,18 @@ p {
 p.small {
   font-size: 16px; }
 
+i {
+  margin: 0 auto;
+}
+
 a,
 a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #8D9D0C;
+  color: white;
 
   outline: none; }
-
-ul {
-  text-align: left;
-}
 
 h1,
 h2,
@@ -39,8 +39,7 @@ h4,
 h5,
 h6 {
   font-family: 'Abel', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase; }
+  font-weight: 700; }
 
 hr.star-light,
 hr.star-primary {
@@ -72,7 +71,7 @@ hr.star-primary {
   border-color: #000000; }
 
 hr.star-primary:after {
-  color: #071E50;
+  color: #1E031B;
   background-color: white; }
 
 .img-centered {
@@ -121,11 +120,11 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #071E50; }
+  background: #1E031B; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: white; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: white; }
@@ -164,10 +163,10 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #122F6B; }
+      background: #590B69; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
-        background: #122F6B; }
+        background: #590B69; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -175,7 +174,7 @@ section.success {
       font-size: 1.5em; } }
 
   #skills.success {
-    background: #071E50;
+    background: #1E031B;
   }
 
 header.masthead {
@@ -235,7 +234,7 @@ header.masthead {
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
-        top: 50%;
+        top: 30%;
         width: 100%;
         height: 100%;
         margin-top: -12px;
@@ -258,6 +257,32 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
+
+#contactForm {
+  max-height: 200px;
+  font-size: 14px;
+}
+
+input {
+  font-size: 14px;
+}
+
+.control-group {
+  max-height: 50px;
+}
+
+.form-control#message {
+  max-height: 50px;
+}
+
+.form-group {
+  max-height: 50px;
+}
+
+.app-details {
+  text-align: left;
+  font-size: 16px;
+}
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
@@ -321,11 +346,11 @@ header.masthead {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.2em;
   border-bottom: 1px solid #eeeeee; }
   .floating-label-form-group input,
   .floating-label-form-group textarea {
-    font-size: 1.5em;
+    font-size: 1em;
     position: relative;
     z-index: 1;
     padding-right: 0;
@@ -338,6 +363,7 @@ header.masthead {
   .floating-label-form-group label {
     font-size: 0.85em;
     line-height: 1.764705882em;
+    max-height: 50px;
     position: relative;
     z-index: 0;
     top: 2em;
@@ -361,11 +387,15 @@ header.masthead {
 .floating-label-form-group-with-focus label {
   color: #8D9D0C; }
 
+.list-inline {
+  text-align: center;
+}
+
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
 
 footer {
-  color: white; }
+  color: 1E031B; }
   footer h3 {
     margin-bottom: 30px; }
   footer .footer-above {
@@ -375,7 +405,8 @@ footer {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #A06E0C; }
+    background-color: #A06E0C;
+    color: 1E031B; }
 
 .btn-outline {
   font-size: 20px;
@@ -392,8 +423,8 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #071E50;
-  background-color: #071E50; }
+  border-color: #1E031B;
+  background-color: #1E031B; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: black;
@@ -421,10 +452,10 @@ footer {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #071E50;
-    background-color: #071E50; }
+    border-color: #1E031B;
+    background-color: #1E031B; }
   .btn-primary .badge {
-    color: #071E50;
+    color: #1E031B;
     background-color: white; }
 
 .btn-success {
