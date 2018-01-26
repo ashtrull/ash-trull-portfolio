@@ -98,6 +98,11 @@ section.success {
   section.first {
     padding-top: 75px; } }
 
+.about-icon {
+  margin-left: 45%;
+  text-align: center;
+}
+
 .scroll-top {
   position: fixed;
   z-index: 1049;
